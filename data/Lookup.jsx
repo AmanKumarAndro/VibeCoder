@@ -1,7 +1,13 @@
 import dedent from "dedent";
 
 export default {
-  SUGGSTIONS: ['Create ToDo App in React', 'Create Budget Track App', 'Create Gym Managment Portal Dashboard', 'Create Quizz App On History', 'Create Login Signup Screen'],
+  SUGGSTIONS: [
+    'Build a To-Do List App using React',
+    'Develop a Personal Budget Tracker',
+    'Create a Gym Management Dashboard Portal',
+    'Build a History Quiz App',
+    'Design a Login & Signup Authentication Screen'
+],
   HERO_HEADING: 'What do you want to build?',
   HERO_DESC: 'Prompt, run, edit, and deploy full-stack web apps.',
   INPUT_PLACEHOLDER: 'What you want to build?',
@@ -17,7 +23,7 @@ export default {
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ANDROop</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -79,28 +85,28 @@ export default config;
       tokens:'50K',
       value:50000,
       desc:'Ideal for hobbyists and casual users for light, exploratory use.',
-      price:4.99
+      price:499
     },
     {
       name:'Starter',
       tokens:'120K',
       value:120000,
       desc:'Designed for professionals who need to use VibeCoder a few times per week.',
-      price:9.99
+      price:999
     },
     {
       name:'Pro',
       tokens:'2.5M',
       value:2500000,
       desc:'Designed for professionals who need to use VibeCoder a few times per week.',
-      price:19.99
+      price:1999
     },
     {
       name:'Unlimted (License)',
       tokens:'Unmited',
       value:999999999,
       desc:'Designed for professionals who need to use VibeCoder a few times per week.',
-      price:49.99
+      price:4999
     }
   ]
 
